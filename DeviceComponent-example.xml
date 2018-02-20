@@ -1,0 +1,64 @@
+<DeviceComponent xmlns="http://hl7.org/fhir">
+  <id value="427" />
+  <meta>
+    <profile value="http://devices.fhir.org/StructureDefinition/MdsDeviceComponent" />
+  </meta>
+  <identifier>
+    <use value="temp" />
+    <system value="urn:ietf:rfc:3986" />
+    <value value="urn:uuid:ae5b5cca-fbd9-4323-842d-fe43064bd06f" />
+  </identifier>
+  <type>
+    <coding>
+      <system value="urn:iso:std:iso:11073:10101" />
+      <code value="69965" />
+      <display value="MDC_DEV_MON_PHYSIO_MULTI_PARAM_MDS" />
+    </coding>
+  </type>
+  <source>
+    <reference value="Device/72" />
+  </source>
+  <operationalStatus>
+    <coding>
+      <system value="http://hl7.org/fhir/operational-status" />
+      <code value="on" />
+      <display value="On" />
+    </coding>
+  </operationalStatus>
+  <productionSpecification>
+    <specType>
+      <coding>
+        <system value="http://hl7.org/fhir/specification-type" />
+        <code value="serial-number" />
+        <display value="Serial Number" />
+      </coding>
+    </specType>
+    <productionSpec value="DE35115712" />
+  </productionSpecification>
+  <productionSpecification>
+    <specType>
+      <coding>
+        <system value="http://hl7.org/fhir/specification-type" />
+        <code value="part-number" />
+        <display value="Part Number" />
+      </coding>
+    </specType>
+    <productionSpec value="866060" />
+  </productionSpecification>
+  <productionSpecification>
+    <specType>
+      <coding>
+        <system value="http://hl7.org/fhir/specification-type" />
+        <code value="hardware-revision" />
+        <display value="Hardware Revision" />
+      </coding>
+    </specType>
+    <productionSpec value="A.00.22" />
+  </productionSpecification>
+  <languageCode>
+    <coding>
+      <system value="urn:ietf:bcp:47" />
+      <code value="en" />
+    </coding>
+  </languageCode>
+</DeviceComponent>
